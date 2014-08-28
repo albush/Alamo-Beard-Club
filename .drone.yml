@@ -7,6 +7,6 @@ publish:
     password: {{rax_apikey}}
     auth_url: https://identity.api.rackspacecloud.com/v2.0
     region: DFW
-    container: abcdrone
+    container: alamobeardclub.com
     source: $DRONE_BUILD_DIR/output
     branch: master
