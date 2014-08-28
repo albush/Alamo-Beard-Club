@@ -19,7 +19,7 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
-THEME = './pelican-bootstrap3'
+THEME = './abctheme'
 CUSTOM_CSS = 'theme/style.css'
 # Blogroll
 
