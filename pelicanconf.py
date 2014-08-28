@@ -45,15 +45,15 @@ DELETE_OUTPUT_DIRECTORY = True
 HIDE_SIDEBAR = True
 
 # Setting up static site with blog in subfolder
-ARTICLE_DIR = 'blog'
+ARTICLE_PATHS = 'blog'
 ARTICLE_URL = 'blog/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
-PAGE_DIR = 'pages'
+PAGE_PATHS = 'pages'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
-AUTHOR_SAVE_AS = False
+# AUTHOR_SAVE_AS = False
 
 CATEGORY_SAVE_AS = 'blog/category/{slug}.html'
 CATEGORY_URL = 'blog/category/{slug}.html'
