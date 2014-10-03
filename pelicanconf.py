@@ -29,10 +29,11 @@ SOCIAL = (('Twitter', 'https://twitter.com/alamobeardclub'),
 
 #DISQUS_SITENAME = ''
 
+GOOGLE_ANALYTICS = 'UA-55409017-1'
 
 DEFAULT_PAGINATION = 5
 # Tell Pelican to add 'extra/style.css' to the output dir
-STATIC_PATHS = ['images', 'extra/style.css', 'extra/favicon.ico']
+STATIC_PATHS = ['images', 'gallery', 'extra/style.css', 'extra/favicon.ico']
 
 # Tell Pelican to change the path to 'theme/style.css' in the output dir
 EXTRA_PATH_METADATA = {
