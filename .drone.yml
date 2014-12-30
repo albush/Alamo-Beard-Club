@@ -3,10 +3,9 @@ script:
   - make -C $DRONE_BUILD_DIR html
 publish:
   swift:
-    username: {{rax_username}}
-    password: {{rax_apikey}}
+    username: $$RAX_USERNAME
+    password: $$RAX_APIKEY
     auth_url: https://identity.api.rackspacecloud.com/v2.0
     region: DFW
     container: alamobeardclub.com
     source: $DRONE_BUILD_DIR/output
-    branch: master
